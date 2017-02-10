@@ -31,8 +31,12 @@
 ### Katas
 
 ### Courses
+#### WintellectNow
 
-## Pluralsight
+- [MongoDB for Developers](https://www.wintellectnow.com/Videos/Watch?videoId=mongodb-for-developers)
+- [NoSQL for the Confused](https://www.wintellectnow.com/Videos/Watch?videoId=nosql-for-the-confused)
+
+#### Pluralsight
 
 [Introduction to MongoDB](https://app.pluralsight.com/library/courses/mongodb-introduction/table-of-contents)
 
