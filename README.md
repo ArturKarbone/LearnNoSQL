@@ -16,6 +16,17 @@
 
 ### Courses
 
+## Pluralsight
+
+[Introduction to MongoDB](https://app.pluralsight.com/library/courses/mongodb-introduction/table-of-contents)
+
+[Introduction to Mongoose for Node.js and MongoDB](https://app.pluralsight.com/library/courses/mongoose-for-nodejs-mongodb/table-of-contents)
+
+[MongoDB Administration](https://app.pluralsight.com/library/courses/mongodb-administration/table-of-contents)
+
+[Using the MongoDB C# v2 Driver](https://app.pluralsight.com/library/courses/mongo-db-csharp-v2-driver/table-of-contents)
+
+[Using MongoDB with ASP.NET MVC](https://app.pluralsight.com/library/courses/using-mongodb-aspdotnet-mvc/table-of-contents)
 
 ### Certificates
 
