@@ -5,6 +5,7 @@
 - Create/Tune up a learning system, so you can leverage it later or in other fields
 - Leverage GitHub feature like projects (Kandan board), issues, Wiki, etc.
 - Track Costs. Track time in Pomodoros.
+- Touch MongoDB, Cassandra, Neo4j, Redis, Azure Table Storage
 
 ### Ideas
 
