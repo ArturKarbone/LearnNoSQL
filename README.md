@@ -19,6 +19,12 @@
 ### Videos
 - [Introduction to NoSQL • Martin Fowler](https://www.youtube.com/watch?v=qI_g07C_Q5I)
 
+### Whitepapers
+- https://www.mongodb.com/white-papers
+
+### Use Cases
+- https://docs.mongodb.com/ecosystem/use-cases/
+
 ### Courses
 
 ## Pluralsight
