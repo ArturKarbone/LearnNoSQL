@@ -18,6 +18,7 @@
 
 ### Videos
 - [Introduction to NoSQL • Martin Fowler](https://www.youtube.com/watch?v=qI_g07C_Q5I)
+- [Google I/O 2012 - SQL vs NoSQL: Battle of the Backends](https://www.youtube.com/watch?v=rRoy6I4gKWU)
 
 ### Whitepapers
 - https://www.mongodb.com/white-papers
