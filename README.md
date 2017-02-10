@@ -27,6 +27,8 @@
 ### Use Cases
 - https://docs.mongodb.com/ecosystem/use-cases/
 
+### Katas
+
 ### Courses
 
 ## Pluralsight
@@ -50,6 +52,8 @@
 
 ### Books
 
+- [Agile Analytics](http://www.informit.com/articles/article.aspx?p=1743274)
+- [NoSQL Distilled](https://martinfowler.com/books/nosql.html)
 
 ### Public Speaking
 
