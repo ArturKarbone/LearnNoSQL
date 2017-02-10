@@ -14,6 +14,10 @@
 
 ### Blogs
 
+- https://martinfowler.com/nosql.html
+
+### Videos
+- [Introduction to NoSQL • Martin Fowler](https://www.youtube.com/watch?v=qI_g07C_Q5I)
 
 ### Courses
 
