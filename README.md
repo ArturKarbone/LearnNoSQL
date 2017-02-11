@@ -31,6 +31,10 @@
 ### Katas
 
 ### Courses
+
+#### Eduonix
+- [Projects in MongoDB Learn MongoDB Building Ten Projects](https://www.eduonix.com/courses/Web-Development/Projects-in-MongoDB-Learn-MongoDB-Building-Ten-Projects)
+
 #### WintellectNow
 
 - [MongoDB for Developers](https://www.wintellectnow.com/Videos/Watch?videoId=mongodb-for-developers)
