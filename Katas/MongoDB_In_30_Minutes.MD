@@ -7,12 +7,16 @@
 - mongodb --directoryperdb --dbpath c:\mongodb\data\db -- logpath c:\mongodb\log\mongo.log --logappend --rest --install
 - --install as service
 - net start mongodb
+
 ### Basic administration
 - mongo to enter the shell
-- show dbs
-- use mycustomers - switch and create
-- db - check current 
-- use products
+```
+help
+show dbs
+use mycustomers // switch and create
+db // check current 
+use products
+```
 
 ### Questions
 
