@@ -17,6 +17,11 @@
 
 - https://martinfowler.com/nosql.html
 
+### Articles
+- Beginner https://www.simple-talk.com/dotnet/net-framework/mongodb-basics-for-net-by-example/ 
+- Beginner https://www.codeproject.com/Articles/1017181/Using-MongoDB-with-Csharp-driver 
+- https://ru.wikipedia.org/wiki/ACID
+
 ### Videos
 - [Introduction to NoSQL • Martin Fowler](https://www.youtube.com/watch?v=qI_g07C_Q5I)
 - [Google I/O 2012 - SQL vs NoSQL: Battle of the Backends](https://www.youtube.com/watch?v=rRoy6I4gKWU)
