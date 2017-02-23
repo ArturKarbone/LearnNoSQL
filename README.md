@@ -27,6 +27,9 @@
 - Beginner https://metanit.com/nosql/mongodb/4.1.php
 - https://ru.wikipedia.org/wiki/ACID
 
+### StackOverflow
+- http://stackoverflow.com/questions/34796735/c-sharp-mongodb-objectid-without-using-mongodb-datatypes-attributes
+
 ### Videos
 - [Introduction to NoSQL • Martin Fowler](https://www.youtube.com/watch?v=qI_g07C_Q5I)
 - [Google I/O 2012 - SQL vs NoSQL: Battle of the Backends](https://www.youtube.com/watch?v=rRoy6I4gKWU)
