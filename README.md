@@ -26,6 +26,7 @@
 - Beginner https://www.codeproject.com/Articles/1017181/Using-MongoDB-with-Csharp-driver 
 - Beginner https://metanit.com/nosql/mongodb/4.1.php
 - https://ru.wikipedia.org/wiki/ACID
+- https://habrahabr.ru/post/153321/
 
 ### StackOverflow
 - http://stackoverflow.com/questions/34796735/c-sharp-mongodb-objectid-without-using-mongodb-datatypes-attributes
