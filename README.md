@@ -30,6 +30,7 @@
 ### StackOverflow
 - http://stackoverflow.com/questions/34796735/c-sharp-mongodb-objectid-without-using-mongodb-datatypes-attributes
 - http://stackoverflow.com/questions/12493576/multi-collection-multi-document-transactions-in-mongodb
+- http://stackoverflow.com/questions/6635718/how-to-work-around-the-lack-of-transactions-in-mongodb
 
 ### Videos
 - [Introduction to NoSQL • Martin Fowler](https://www.youtube.com/watch?v=qI_g07C_Q5I)
