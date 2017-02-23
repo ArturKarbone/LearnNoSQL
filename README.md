@@ -20,6 +20,7 @@
 ### Articles
 - Beginner https://www.simple-talk.com/dotnet/net-framework/mongodb-basics-for-net-by-example/ 
 - Beginner https://www.codeproject.com/Articles/1017181/Using-MongoDB-with-Csharp-driver 
+- Beginner https://metanit.com/nosql/mongodb/4.1.php
 - https://ru.wikipedia.org/wiki/ACID
 
 ### Videos
