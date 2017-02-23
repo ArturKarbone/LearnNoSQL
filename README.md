@@ -28,6 +28,11 @@
 - https://ru.wikipedia.org/wiki/ACID
 - https://habrahabr.ru/post/153321/
 
+### Patterns 
+- https://docs.mongodb.com/manual/applications/data-models/
+- https://dzone.com/articles/mongodb-design-patterns
+- http://shop.oreilly.com/product/0636920027041.do
+
 ### StackOverflow
 - http://stackoverflow.com/questions/34796735/c-sharp-mongodb-objectid-without-using-mongodb-datatypes-attributes
 - http://stackoverflow.com/questions/12493576/multi-collection-multi-document-transactions-in-mongodb
@@ -79,6 +84,7 @@
 
 - [Agile Analytics](http://www.informit.com/articles/article.aspx?p=1743274)
 - [NoSQL Distilled](https://martinfowler.com/books/nosql.html)
+- [MongoDB Applied Design Patterns](http://shop.oreilly.com/product/0636920027041.do)
 
 ### Public Speaking
 
