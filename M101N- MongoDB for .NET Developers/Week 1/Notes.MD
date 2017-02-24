@@ -8,4 +8,13 @@
 - collections(tables)
 - document - atomic transaction
 - https://i.imgur.com/pfBHzBe.png
-
+- no transactions between collections, no joins
+- https://i.imgur.com/RKWaCik.png
+- use test - automatically creates a db if it does not exist
+- db.things.save({"key","value"})
+- db.things.find().pretty()
+- _id ObjecId
+- findone, update property, save
+- https://i.imgur.com/gTlkFiW.png
+- https://i.imgur.com/DNauxYK.png
+- Embed when the whole graph is used together
