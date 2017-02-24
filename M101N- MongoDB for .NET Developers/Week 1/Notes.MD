@@ -1,1 +1,11 @@
+- Non relational Does not store data in tables. Documents can have a hierarchy
+- Stores json documents
+- http://json.org/
+- Easy to program
+- Schemaless. Implicit schema defined by application
+- https://i.imgur.com/lBusIHN.png
+- https://i.imgur.com/M9PRmNO.png
+- collections(tables)
+- document - atomic transaction
+- https://i.imgur.com/pfBHzBe.png
 
