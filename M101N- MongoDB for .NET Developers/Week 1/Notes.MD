@@ -6,6 +6,7 @@
 - http://json.org/
 - Easy to program
 - Schemaless. Implicit schema defined by application
+- Schemaless allows to persist misc inheritance scenarios, like different type loan contracts with different fields, etc. No need to hassle with table iheritance patterns.
 - https://i.imgur.com/lBusIHN.png
 - https://i.imgur.com/M9PRmNO.png
 - https://i.imgur.com/pfBHzBe.png
