@@ -20,3 +20,7 @@
 - https://i.imgur.com/gTlkFiW.png
 - https://i.imgur.com/DNauxYK.png
 - Embed when the whole graph is used together (aggregation root)
+- mongorestore uses default 'dump' directory
+- https://i.imgur.com/rtzUHJK.png
+- mongodump
+- mongodump /d m101 /c funnynumbers
