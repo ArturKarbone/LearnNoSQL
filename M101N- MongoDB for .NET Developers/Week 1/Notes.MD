@@ -1,12 +1,13 @@
-- Non relational Does not store data in tables. Documents can have a hierarchy
+- Non relational. Does not store data in tables. Documents can have a hierarchy
+- Tables have no hierarchy by default, so it's not an easy task to save/query a complex aggregation root. A transaction required to persist single aggregation root into multiple tables.
+- collections(tables)
+- In Mongo - document persistence is an atomic transaction
 - Stores json documents
 - http://json.org/
 - Easy to program
 - Schemaless. Implicit schema defined by application
 - https://i.imgur.com/lBusIHN.png
 - https://i.imgur.com/M9PRmNO.png
-- collections(tables)
-- document - atomic transaction
 - https://i.imgur.com/pfBHzBe.png
 - no transactions between collections, no joins
 - https://i.imgur.com/RKWaCik.png
@@ -17,4 +18,4 @@
 - findone, update property, save
 - https://i.imgur.com/gTlkFiW.png
 - https://i.imgur.com/DNauxYK.png
-- Embed when the whole graph is used together
+- Embed when the whole graph is used together (aggregation root)
