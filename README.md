@@ -12,7 +12,10 @@
 - Check out John Sonmez's learning system. 
 - Check out best practises working with projects in GitHub from Yegor Bugayenko. A sample project he sent me https://github.com/yegor256/takes
 
-
+### Questions
+- Figure out whether running single instance is OK. Use to be an issue as far as i recall
+- Figure out how to use 2 phase commits or other transactional mechanisms peristing to multiple collections.
+- Find out wheter Azure still needs 3 instances
 ### Blogs
 
 - https://martinfowler.com/nosql.html
