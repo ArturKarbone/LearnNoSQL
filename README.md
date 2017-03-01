@@ -48,6 +48,8 @@
 - [Introduction to NoSQL • Martin Fowler](https://www.youtube.com/watch?v=qI_g07C_Q5I)
 - [Google I/O 2012 - SQL vs NoSQL: Battle of the Backends](https://www.youtube.com/watch?v=rRoy6I4gKWU)
 - [MongoDB in 30 minutes](https://www.youtube.com/watch?v=pWbMrx5rVBE)
+- [IMDB showdown - comparing OrigoDB, Redis and SQL Server Hekaton - Robert Friberg](https://vimeo.com/131196774)
+
 
 ### Whitepapers
 - https://www.mongodb.com/white-papers
