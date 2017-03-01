@@ -20,6 +20,9 @@
 
 - https://martinfowler.com/nosql.html
 
+### Podcasts
+- http://www.podcastchart.com/podcasts/herding-code/episodes/herding-code-209-robert-friberg-on-in-memory-databases-and-origodb
+
 ### OS
 
 - https://github.com/mongodb/mongo-csharp-driver
@@ -90,4 +93,12 @@
 - [MongoDB Applied Design Patterns](http://shop.oreilly.com/product/0636920027041.do)
 
 ### Public Speaking
+
+
+### OrigoDB
+
+- http://origodb.com/
+- https://skillsmatter.com/skillscasts/5216-build-faster-systems-faster-using-origodb
+- https://github.com/DevrexLabs/OrigoDB
+
 
