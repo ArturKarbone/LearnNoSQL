@@ -49,6 +49,15 @@
 - [Google I/O 2012 - SQL vs NoSQL: Battle of the Backends](https://www.youtube.com/watch?v=rRoy6I4gKWU)
 - [MongoDB in 30 minutes](https://www.youtube.com/watch?v=pWbMrx5rVBE)
 - [IMDB showdown - comparing OrigoDB, Redis and SQL Server Hekaton - Robert Friberg](https://vimeo.com/131196774)
+- [Firebase tutorial: install/read/write](https://www.youtube.com/watch?v=1O0fR3kazMA)
+- [Firebase on the web](https://www.youtube.com/watch?v=hb85pYZSJaI&list=PLl-K7zZEsYLmnJ_FpMOZgyg6XcIGBu2OX)
+
+- [Firebase Youtube channel](https://www.youtube.com/channel/UCP4bf6IHJJQehibu6ai__cg)
+- [Zero to App: Develop with Firebase - Google I/O 2016](https://www.youtube.com/watch?v=xAsvwy1-oxE)
+- [AngularJS & Firebase](https://www.youtube.com/watch?v=wkhClyW5uMc)
+- [Firebase 3.0: Data Modeling](https://www.youtube.com/watch?v=4vnoPtSg4uU)
+- [Firebase 3 Data Modeling 101 - How To Model Data In Firebase ?](https://www.youtube.com/watch?v=8BTh9hZ3Hs8)
+
 
 
 ### Whitepapers
@@ -70,6 +79,8 @@
 - [NoSQL for the Confused](https://www.wintellectnow.com/Videos/Watch?videoId=nosql-for-the-confused)
 
 #### Pluralsight
+
+[Firebase Fundamentals](https://app.pluralsight.com/library/courses/firebase-fundamentals/table-of-contents)
 
 [Introduction to MongoDB](https://app.pluralsight.com/library/courses/mongodb-introduction/table-of-contents)
 
