@@ -1,0 +1,206 @@
+Introduction to MongoDB
+
+
+C:\Program Files\MongoDB\Server\3.4\bin
+mongod
+(c:\data\db not found)
+
+
+read logs
+
+mongo
+
+read logs
+
+mongodb://127.0.0.1:27017
+
+help
+show dbs
+db
+use my
+
+db.foo.insert({"test":1})
+
+show collections
+
+mongodb --help | more
+
+mongod --dbpath c:\data\db2 --logpath c:\data\logs -verbose vvvvv
+
+tail c:\data\logs -f
+
+
+config file 
+
+https://docs.mongodb.com/manual/reference/configuration-options/
+
+mongod --config c:\sandbox\mongo\demo.conf
+
+mongod --config c:\sandbox\mongo\demo.conf.txt --install
+
+net start MongoDB (logs)
+net start | more MongoDB
+net stop MongoDB
+
+Replica set
+
+roles
+
+primary: one and only writable instance (write agains secondary will fail)
+secondary: read only
+arbiter: voting majority rule
+
+
+cd pluralsight
+
+md db1
+md db2
+md db3
+
+
+@REM Primary
+
+start "a" mongod --dbpath ./db1 --port 30000 -replSet "demo"
+
+@REM Secondary
+
+start "b" mongod --dbpath ./db2 --port 40000 -replSet "demo"
+
+@REM Arbite
+
+start "c" mongod --dbpath ./db3 --port 50000 -replSet "demo"
+
+
+
+mongo server script.js --shell (stay in shell)
+
+
+mongo --port 30000
+db.getMongo() to figure out server
+
+var demoConfig = {  
+   "_id":"demo",
+   "members":[  
+      {  
+         "_id":0,
+         "host":"localhost:30000",
+         "priority":10
+      },
+      {  
+         "_id":1,
+         "host":"localhost:40000"
+      },
+      {  
+         "_id":2,
+         "host":"localhost:50000",
+         "arbiterOnly":true
+      }
+   ]
+}
+
+
+rs.initiate(demoConfig) and notice how prompt is changing
+
+try insert on primary
+
+
+db.foo.insert({"test":1})
+
+coneect to secondary
+db.setSlaveOk() connection level settings
+try to insert to secondary
+
+shutdown primary
+
+wath status in the prompt
+
+
+rs.status()
+try to read/write in Arbiter
+
+
+shell
+
+mongo server script.js 
+
+monog server --eval
+mongo localhost/admin --eval "printjson(db.runCommand({logRotate:1}))"
+
+mongo usercount.js
+
+var userCount = function(){
+	print('test');
+	var count = db.Users.count();
+	var entry = {_id: Date, n: count};
+	db.UserCountHistory.save(entry);
+	print("\nToday's User Count: " + count);
+}
+
+mongo dontDrop.js --shell
+
+db.dropDatabase = function(){
+	print("Don't do it man")
+}
+}
+userCount();
+
+
+
+Keys
+
+Home Ctrl+A - beginning
+END Ctrl+E - end
+up/down - scroll history
+ctrl+ left/right moving between words
+ctrl+k - delete to end of line
+ctrl+l - clean screen
+
+
+set EDITOR="code"
+edit myfunc
+
+load('myscrip.js')
+
+mongorc.js(in user's home directory)
+
+mongo --norc
+
+---
+
+Memory-Mapped Files
+https://docs.microsoft.com/en-us/dotnet/standard/io/memory-mapped-files
+
+db.foo.save({_id:1,x:10})
+db.foo.save({_id:1,x:10})
+
+only once
+db.foo.insert({_id:1,x:10})
+
+mongo driver or shell generates ObjectId, not server
+
+
+
+
+upsert
+
+ObjectId().getTimestamp()
+
+get doc
+
+save (emulate another user)
+
+save doc (rewrites)
+
+use update
+
+findAndModify
+
+
+contact us if this is an issue
+
+prove that sorting is happening on the server (projection does not include sorting fields)
+
+
+db.foo.find({x:10}).explain()
+
+ensureIndex()
