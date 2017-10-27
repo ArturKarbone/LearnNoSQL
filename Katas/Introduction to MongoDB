@@ -204,3 +204,9 @@ prove that sorting is happening on the server (projection does not include sorti
 db.foo.find({x:10}).explain()
 
 ensureIndex()
+
+
+Docker
+
+docker run -p 27017:27017 -p 28017:28017 --name some-mongo4 -d mongo --httpinterface  --rest
+
